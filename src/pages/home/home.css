@@ -69,12 +69,20 @@ header {
 .number {
   font-size: 14px;
 }
-
-.today {
+a:link {
+  text-decoration: none;
+}
+a:active,
+a:hover,
+a:visited,
+a:focus {
   background-color: var(--primary-color);
   border-radius: 10px;
   color: var(--background-color);
+  text-decoration: var(--background-color);
+  /* cursor: -moz-grab; */
 }
+
 .topic {
   padding-left: 20px;
   margin: 30px 0 15px 0;
@@ -104,7 +112,7 @@ header {
 .container-popular {
   display: grid;
   grid-template-columns: 1fr 100px;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   row-gap: 20px;
   height: 100px;
   /* overflow-y: auto; */
@@ -126,7 +134,7 @@ header {
   width: 100px;
   height: 100px;
   align-self: flex-end;
-  border-radius: 10px;
+  border-radius: 0 10px 10px 0;
   object-fit: cover;
   object-position: left;
 }
