@@ -27,3 +27,21 @@ header {
 .border-all-solid {
   height: 20px;
 }
+
+.hello {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  grid-template-rows: 1;
+  margin: 20px;
+}
+.image-member {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.sublinetwo {
+  display: block;
+  font-size: 10px;
+}
