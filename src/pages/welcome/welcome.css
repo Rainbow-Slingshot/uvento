@@ -2,25 +2,43 @@
   background-color: var(--background-color);
   height: 100vh;
   width: 100vw;
-  background-image: url(../../assets/Pictures/PATTERN.svg);
+
+  /* background-image: url(../../assets/Pictures/PATTERN.svg); */
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* grid-template-columns: auto;
-  grid-template-rows: auto;
-  align-items: center; */
-  /* justify-content: start;
-  grid-column-gap: 0;
-  grid-row-gap: 0; */
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .welcome > * {
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: auto;
 }
+
+.headline {
+  font-size: 1.5em;
+}
+
+.subline {
+  font-size: 0.9em;
+  line-height: 2em;
+}
+
+.start a:link,
+.start a:visited,
+.start a:hover,
+.start a:active {
+  color: #fff;
+  text-decoration: white;
+}
+
+/* a:link {
+  text-decoration: white;
+} */
