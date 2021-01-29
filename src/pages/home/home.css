@@ -80,7 +80,6 @@ a:focus {
   border-radius: 10px;
   color: var(--background-color);
   text-decoration: var(--background-color);
-  /* cursor: -moz-grab; */
 }
 
 .topic {
@@ -115,7 +114,6 @@ a:focus {
   grid-template-rows: auto;
   row-gap: 20px;
   height: 100px;
-  /* overflow-y: auto; */
   margin-left: 20px;
   margin-right: 20px;
   background-color: #29404e;
