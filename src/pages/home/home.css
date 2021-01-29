@@ -1,0 +1,29 @@
+header {
+  display: grid;
+  grid-template-columns: 35px 1fr 40px 20px;
+  grid-template-rows: 1fr;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.home-headline {
+  display: inline;
+  font-size: 20px;
+  align-self: center;
+  font-weight: bold;
+}
+.logo-small {
+  height: 25px;
+}
+.icon1 {
+  align-self: center;
+}
+.icon2 {
+  align-self: center;
+}
+.bell-img {
+  height: 20px;
+}
+.border-all-solid {
+  height: 20px;
+}
