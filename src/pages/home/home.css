@@ -33,15 +33,45 @@ header {
   grid-template-columns: 1fr 50px;
   grid-template-rows: 1;
   margin: 20px;
+  line-height: 20px;
 }
 .image-member {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   align-self: center;
+  border: 2px solid var(--primary-color);
 }
 
 .sublinetwo {
   display: block;
   font-size: 10px;
+}
+
+.schedule {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0 20px 0 20px;
+}
+
+.date {
+  color: #ccc;
+  text-align: center;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.day {
+  font-size: 12px;
+}
+
+.number {
+  font-size: 14px;
+}
+
+.today {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  color: var(--background-color);
 }
