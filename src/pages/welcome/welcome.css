@@ -2,22 +2,25 @@
   background-color: var(--background-color);
   height: 100vh;
   width: 100vw;
-  /* background-image: url(../../assets/Pictures/PATTERN.svg);
+  background-image: url(../../assets/Pictures/PATTERN.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  object-fit: cover;
-  object-position: top left; */
-  display: grid;
-  /* place-items: center; */
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* grid-template-columns: auto;
+  grid-template-rows: auto;
+  align-items: center; */
+  /* justify-content: start;
+  grid-column-gap: 0;
+  grid-row-gap: 0; */
 }
 
-.background-pattern {
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
-  /* object-position: left; */
-  /* background-size: fill; */
-  background-repeat: no-repeat;
+.welcome > * {
   margin: 0;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
 }

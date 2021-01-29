@@ -11,8 +11,9 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  color: white;
 }
 
 input,
@@ -21,10 +22,14 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 :root {
   --background-color: #102733;
   --primary-color: #ffa700;
   --secundary-color: #f5f5f5;
+}
+
+.primary-color {
+  color: var(--primary-color);
 }
