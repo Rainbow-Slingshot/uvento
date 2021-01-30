@@ -11,7 +11,6 @@
   justify-content: center;
   padding-left: 40px;
   padding-right: 40px;
-  /* object-fit: cover; */
 }
 
 .welcome > * {
@@ -39,7 +38,3 @@
   color: #fff;
   text-decoration: white;
 }
-
-/* a:link {
-  text-decoration: white;
-} */
