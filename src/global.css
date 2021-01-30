@@ -27,8 +27,9 @@ textarea {
 }
 :root {
   --background-color: #102733;
-  --primary-color: #ffa700;
+  --primary-color: #fccd00;
   --secundary-color: #f5f5f5;
+  --footer-color: #152f3e;
 }
 
 .primary-color {
