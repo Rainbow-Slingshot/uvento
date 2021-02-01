@@ -1,7 +1,8 @@
-header {
+.header {
   display: grid;
-  grid-template-columns: 35px 1fr 40px 20px;
+  grid-template-columns: auto 1fr auto auto;
   grid-template-rows: 1fr;
+  align-items: center;
   margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
@@ -12,15 +13,19 @@ header {
   align-self: center;
   font-weight: bold;
 }
+
 .logo-small {
   height: 25px;
 }
-.icon1 {
-  align-self: center;
+
+.header .logo-small {
+  margin-right: 4px;
 }
-.icon2 {
-  align-self: center;
+
+.icon + .icon {
+  margin-left: 20px;
 }
+
 .bell-img {
   height: 20px;
 }
